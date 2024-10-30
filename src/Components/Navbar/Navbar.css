@@ -1,0 +1,15 @@
+.main_manu{
+    @apply bg-slate-400 
+}
+.manu{
+    @apply flex justify-between
+}
+.logo{
+    @apply w-28
+}
+.manu_row ul {
+    @apply flex gap-5 font-popins mt-[47px]
+}
+.manu ul li a{
+    @apply text-black font-medium  hover:text-white duration-200
+}
